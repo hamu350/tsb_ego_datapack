@@ -1,0 +1,1 @@
+execute if data storage asset:context id{mainhand:30004} run function asset:artifact/30004.kawaii/trigger/2.check_condition

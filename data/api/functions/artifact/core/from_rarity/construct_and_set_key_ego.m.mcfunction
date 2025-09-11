@@ -1,0 +1,1 @@
+$data modify storage lib: Args.key set value "artifact_$(Color)_lv-$(Rarity)_ego"

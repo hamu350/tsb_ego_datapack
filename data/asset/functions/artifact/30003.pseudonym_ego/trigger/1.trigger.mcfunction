@@ -1,0 +1,1 @@
+execute if data storage asset:context id{mainhand:30003} run function asset:artifact/30003.pseudonym_ego/trigger/2.check_condition

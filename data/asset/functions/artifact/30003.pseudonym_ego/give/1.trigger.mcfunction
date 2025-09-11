@@ -1,0 +1,1 @@
+execute if data storage asset:context {id:30003} run function asset:artifact/30003.pseudonym_ego/give/2.give

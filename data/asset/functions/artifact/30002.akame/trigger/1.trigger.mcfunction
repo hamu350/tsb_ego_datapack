@@ -1,0 +1,1 @@
+execute if data storage asset:context id{offhand:30002} run function asset:artifact/30002.akame/trigger/2.check_condition

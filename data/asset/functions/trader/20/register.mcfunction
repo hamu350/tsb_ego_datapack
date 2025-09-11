@@ -1,0 +1,22 @@
+execute unless loaded -36 21 -29 run return 1
+data modify storage asset:trader ID set value 20
+data modify storage asset:trader Pos set value [-36,21,-29]
+data modify storage asset:trader Name set value '{"text":"抽出チケット商人"}'
+data modify storage asset:trader Rotation set value -90f
+data modify storage asset:trader Trades append value {}
+data modify storage asset:trader Trades[-1].BuyA set value {PresetItem:"sacred_shard/lv-1",Count:1b}
+data modify storage asset:trader Trades[-1].BuyB set value {PresetItem:"currency/high",Count:1b}
+data modify storage asset:trader Trades[-1].Sell set value {PresetItem:"ego_tickets/lv-1",Count:1b}
+data modify storage asset:trader Trades append value {}
+data modify storage asset:trader Trades[-1].BuyA set value {PresetItem:"sacred_shard/lv-2",Count:1b}
+data modify storage asset:trader Trades[-1].BuyB set value {PresetItem:"currency/high",Count:2b}
+data modify storage asset:trader Trades[-1].Sell set value {PresetItem:"ego_tickets/lv-2",Count:1b}
+data modify storage asset:trader Trades append value {}
+data modify storage asset:trader Trades[-1].BuyA set value {PresetItem:"sacred_shard/lv-3",Count:1b}
+data modify storage asset:trader Trades[-1].BuyB set value {PresetItem:"currency/high",Count:3b}
+data modify storage asset:trader Trades[-1].Sell set value {PresetItem:"ego_tickets/lv-3",Count:1b}
+data modify storage asset:trader Trades append value {}
+data modify storage asset:trader Trades[-1].BuyA set value {PresetItem:"sacred_shard/lv-4",Count:1b}
+data modify storage asset:trader Trades[-1].BuyB set value {PresetItem:"currency/high",Count:4b}
+data modify storage asset:trader Trades[-1].Sell set value {PresetItem:"ego_tickets/lv-4",Count:1b}
+forceload remove -36 -29 -36 -29

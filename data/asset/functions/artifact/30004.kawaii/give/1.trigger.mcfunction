@@ -1,0 +1,1 @@
+execute if data storage asset:context {id:30004} run function asset:artifact/30004.kawaii/give/2.give

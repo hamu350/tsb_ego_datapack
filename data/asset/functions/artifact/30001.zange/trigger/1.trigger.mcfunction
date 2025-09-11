@@ -1,0 +1,1 @@
+execute if data storage asset:context id{mainhand:30001} run function asset:artifact/30001.zange/trigger/2.check_condition
