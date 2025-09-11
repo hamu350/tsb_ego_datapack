@@ -12,10 +12,10 @@
 3. 導入完了
 
 ## サポート
-* [The Sky Blessing 公式ディスコード](https://img.shields.io/discord/742465492861845564?logo=discord&label=discord)こちらのサーバーの[フォーラム]()にてサポートしております
+* [The Sky Blessing 公式ディスコード](https://discord.gg/vPqHuQNMEv)こちらのサーバーの[フォーラム]()にてサポートしております
 
 ## 関連リンク
-* [「E.G.O追加パッチResoucespack」GitHubリンク]()
+* [「E.G.O追加パッチResoucespack」GitHubリンク](https://github.com/hamu350/tsb_ego_resouces)
 
 ## 注意
 このデータパックは「TheSkyBlessing」と「Lobotomy Corporation」の二次創作であり、TheSkyBlessingやプロジェクトムーンの公式コンテンツではありません。
