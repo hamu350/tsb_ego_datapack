@@ -1,0 +1,1 @@
+execute if data storage asset:context id{hotbar:[30005]} run function asset:artifact/30005.kutibasi/equip/2.check_condition

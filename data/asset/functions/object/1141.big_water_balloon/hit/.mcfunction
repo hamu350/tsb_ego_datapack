@@ -1,0 +1,21 @@
+playsound minecraft:entity.generic.splash neutral @a ~ ~ ~ 1.5 1.5
+playsound minecraft:block.bubble_column.upwards_inside neutral @a ~ ~ ~ 1 2
+playsound minecraft:block.bubble_column.whirlpool_inside neutral @a ~ ~ ~ 1 2
+playsound ogg:block.bubble_column.upwards_ambient1 neutral @a ~ ~ ~ 1.5 0.5
+playsound ogg:block.bubble_column.upwards_ambient1 neutral @a ~ ~ ~ 1.5 0.7
+particle crit ~ ~ ~ 0 0 0 1 100
+particle minecraft:dust 0.525 0.843 1 1.5 ~ ~ ~ 0.5 0.5 0.5 0 25 force @a[distance=..32]
+particle minecraft:dust 0 0.667 1 2 ~ ~ ~ 1.5 1.5 1.5 0 100 force @a[distance=..32]
+particle minecraft:explosion ~ ~ ~ 1.5 1.5 1.5 0.5 5
+data modify storage api: Argument.Damage set from storage asset:context this.Damage
+data modify storage api: Argument.AttackType set value "Physical"
+data modify storage api: Argument.ElementType set value "Water"
+execute store result score $UserID Temporary run data get storage asset:context this.UserID
+execute as @a if score @s UserID = $UserID Temporary run function api:damage/modifier
+execute positioned ~-1 ~-1 ~-1 run tag @e[type=#lib:living,tag=Enemy,tag=!Uninterferable,dx=1,dy=1,dz=1] add Hit
+tag @e[type=#lib:living,tag=Enemy,tag=!Uninterferable,distance=..4] add Hit
+execute as @e[type=#lib:living,tag=Hit,distance=..16] run function api:damage/
+scoreboard players reset $UserID Temporary
+tag @e[type=#lib:living,tag=Hit,distance=..64] remove Hit
+function api:damage/reset
+function asset:object/super.method

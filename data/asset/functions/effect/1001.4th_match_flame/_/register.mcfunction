@@ -1,0 +1,1 @@
+execute if data storage asset:context {id:1001} run function asset:effect/1001.4th_match_flame/register

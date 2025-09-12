@@ -1,0 +1,1 @@
+execute if data storage asset:context id{mainhand:30008} run function asset:artifact/30008.4th_match_flame/trigger/2.check_condition

@@ -1,0 +1,9 @@
+data modify storage asset:effect ID set value 1001
+data modify storage asset:effect Name set value '{"text":"四本目のマッチの火","color":"dard_red"}'
+data modify storage asset:effect Description set value ['{"text":"装填中...","color":"white"}']
+data modify storage asset:effect Duration set value 1
+data modify storage asset:effect IsBadEffect set value false
+data modify storage asset:effect ProcessOnDied set value "remove"
+data modify storage asset:effect RequireClearLv set value 2
+data modify storage asset:effect Visible set value false
+data modify storage asset:effect StackVisible set value false

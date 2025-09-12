@@ -1,0 +1,1 @@
+data modify storage asset:artifact RarityRegistryEgo[1] append value [30007]

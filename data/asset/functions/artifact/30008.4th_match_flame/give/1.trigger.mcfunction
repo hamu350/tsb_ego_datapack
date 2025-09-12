@@ -1,0 +1,1 @@
+execute if data storage asset:context {id:30008} run function asset:artifact/30008.4th_match_flame/give/2.give

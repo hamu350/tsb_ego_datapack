@@ -10,6 +10,6 @@ data modify storage asset:artifact AttackInfo.ElementType set value [None]
 data modify storage asset:artifact AttackInfo.IsRangeAttack set value "never"
 data modify storage asset:artifact MPHealWhenHit set value 3
 data modify storage asset:artifact TypeCooldown.Type set value "shortRange"
-data modify storage asset:artifact TypeCooldown.Duration set value 7
+data modify storage asset:artifact TypeCooldown.Duration set value 5
 data modify storage asset:artifact CanUsedGod set value "ALL"
 function asset:artifact/common/give

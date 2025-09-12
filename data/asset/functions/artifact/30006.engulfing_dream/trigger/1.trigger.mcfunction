@@ -1,0 +1,1 @@
+execute if data storage asset:context id{mainhand:30006} run function asset:artifact/30006.engulfing_dream/trigger/2.check_condition
