@@ -12,6 +12,6 @@ data modify storage asset:artifact AttackInfo.AttackRange set value 15
 data modify storage asset:artifact MPCost set value 50
 data modify storage asset:artifact TypeCooldown.Type set value "longRange"
 data modify storage asset:artifact TypeCooldown.Duration set value 50
-data modify storage asset:artifact LocalCooldown set value 100
+data modify storage asset:artifact LocalCooldown set value 150
 data modify storage asset:artifact CanUsedGod set value "ALL"
 function asset:artifact/common/give

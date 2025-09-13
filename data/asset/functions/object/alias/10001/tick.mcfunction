@@ -1,0 +1,1 @@
+function asset:object/10001.4th_match_flame/tick/
