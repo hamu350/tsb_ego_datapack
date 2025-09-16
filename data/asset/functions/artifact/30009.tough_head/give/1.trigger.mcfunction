@@ -1,0 +1,1 @@
+execute if data storage asset:context {id:30009} run function asset:artifact/30009.tough_head/give/2.give
