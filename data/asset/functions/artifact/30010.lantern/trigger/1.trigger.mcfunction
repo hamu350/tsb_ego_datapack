@@ -1,0 +1,1 @@
+execute if data storage asset:context id{mainhand:30010} run function asset:artifact/30010.lantern/trigger/2.check_condition
