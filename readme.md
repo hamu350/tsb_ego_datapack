@@ -9,7 +9,7 @@
 ## 導入方法
 1. TheSkyBlessingのworldフォルダのdatapacksフォルダの中にこのE.G.O_datapack.zipを入れる
 2. TheSkyBlessingのworldフォルダの「resources.zip」を削除する
-3. リソースパック「[resouse_tsb_ego](https://www.dropbox.com/scl/fi/g91c4tmioqhs51pscfw4q/resouces_tsb_ego.zip?rlkey=3iuvrd325b1z9nhoikufsa2en&st=vghyk1oh&dl=0)」を導入する
+3. リソースパック「[resouse_tsb_ego](https://github.com/hamu350/tsb_ego_resouces)」を導入する
 4. 導入完了
 
 ## サポート
