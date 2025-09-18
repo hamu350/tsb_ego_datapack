@@ -8,7 +8,7 @@
 
 ## 導入方法
 1. 一度もワールドに入っていないTheSkyBlessingのworldフォルダのdatapacksフォルダの中にこのzipフォルダを入れる
-2. [こちら]()からリソースパックを導入する
+2. [こちら](https://www.dropbox.com/scl/fi/g91c4tmioqhs51pscfw4q/resouces_tsb_ego.zip?rlkey=3iuvrd325b1z9nhoikufsa2en&st=pa3ecr80&dl=0)からリソースパックを導入する
 3. 導入完了
 
 ## サポート
