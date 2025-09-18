@@ -1,1 +1,0 @@
-execute unless data storage settings: {EgoDatapack:true} run function load:once
