@@ -2,5 +2,4 @@ data modify storage global GameVersion set value "v0.1.0_e.g.o"
 data modify storage global ResourcePackVersion set value "v0.1.a_e.g.o"
 function core:migration/common/
 forceload add -36 -29 -36 -29
-function asset:trader/20/register
-execute positioned -36 21 -29 run function asset_manager:trader/register/construct/
+schedule function core:migration/v0.1.0_ego/schedule 1t
