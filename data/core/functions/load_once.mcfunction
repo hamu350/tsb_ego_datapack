@@ -212,3 +212,7 @@ function world_manager:nexus_loader/register
 function player_manager:god/mercy/offering/init
 scoreboard players set $LatestProvidedAddress Global 0
 execute unless data storage rom: _ run function rom:init
+function core:migration/common/
+forceload add -36 -29 -36 -29
+function asset:trader/20/register
+execute positioned -36 21 -29 run function asset_manager:trader/register/construct/
