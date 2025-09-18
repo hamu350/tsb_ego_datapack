@@ -7,9 +7,10 @@
 このデータパックはゲーム「Lobotomy Corporation」のE.G.O装備等をMaincraft配布マップ「TheSkyBlessing」に神器として追加する二次創作です
 
 ## 導入方法
-1. 一度もワールドに入っていないTheSkyBlessingのworldフォルダのdatapacksフォルダの中にこのE.G.O_datapack.zipを入れる
-2. リソースパック「[resouse_tsb_ego](https://www.dropbox.com/scl/fi/g91c4tmioqhs51pscfw4q/resouces_tsb_ego.zip?rlkey=3iuvrd325b1z9nhoikufsa2en&st=vghyk1oh&dl=0)」を導入する
-3. 導入完了
+1. TheSkyBlessingのworldフォルダのdatapacksフォルダの中にこのE.G.O_datapack.zipを入れる
+2. TheSkyBlessingのworldフォルダの「resources.zip」を削除する
+3. リソースパック「[resouse_tsb_ego](https://www.dropbox.com/scl/fi/g91c4tmioqhs51pscfw4q/resouces_tsb_ego.zip?rlkey=3iuvrd325b1z9nhoikufsa2en&st=vghyk1oh&dl=0)」を導入する
+4. 導入完了
 
 ## サポート
 * [The Sky Blessing 公式ディスコード](https://discord.gg/vPqHuQNMEv)こちらのサーバーの[フォーラム](https://discord.com/channels/742465492861845564/1416218190131888251)にてサポートしております
