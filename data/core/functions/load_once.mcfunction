@@ -212,5 +212,5 @@ function world_manager:nexus_loader/register
 function player_manager:god/mercy/offering/init
 scoreboard players set $LatestProvidedAddress Global 0
 execute unless data storage rom: _ run function rom:init
-forceload add -36 -29 -36 -29
+execute in minecraft:overworld positioned -36 21 -29 run forceload add ~ ~ ~ ~
 schedule function core:migration/v0.1.0_ego/schedule 1t
