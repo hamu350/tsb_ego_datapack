@@ -19,4 +19,3 @@ data modify storage asset:trader Trades append value {}
 data modify storage asset:trader Trades[-1].BuyA set value {PresetItem:"sacred_shard/lv-4",Count:1b}
 data modify storage asset:trader Trades[-1].BuyB set value {PresetItem:"currency/high",Count:4b}
 data modify storage asset:trader Trades[-1].Sell set value {PresetItem:"ego_tickets/lv-4",Count:1b}
-forceload remove -36 -29 -36 -29
